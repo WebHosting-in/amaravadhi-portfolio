@@ -1,0 +1,39 @@
+/*====================================================
+                   About me
+======================================================*/
+
+.about-me ul.about-info {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .pl-md-0, .px-md-0 {
+        padding-left: 0 !important;
+    }
+}
+@media (min-width: 768px) {
+    .pr-md-0, .px-md-0 {
+        padding-right: 0 !important;
+    }
+}
+.about-me ul.about-info li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.about-me ul.about-info li span:first-child {
+    font-weight: 600;
+    color: #ffffff;
+    width: 130px;
+}
+.about-me ul.about-info li span {
+    width: calc(100% - 130px);
+}
